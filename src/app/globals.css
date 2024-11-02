@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles/globals.css */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+@font-face {
+  font-family: 'SfproDisplay';
+  src: url('/src/app/fonts/SFPRODISPLAYMEDIUM.woff') format('truetype'); /* Adjust path and format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: '', sans-serif;
+}
+
